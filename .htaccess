@@ -1,0 +1,2 @@
+RewriteCond %{http://www.es-amper.com} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
